@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webcam - Sign Scribe</title>
+  <link rel="stylesheet" type="text/css" href="/static/styles.css">
+  <style>
+    h1 {
+            text-align: center;
+            color: white;
+        }
+    video {
+            width: 100%;
+            max-width: 640px;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+    canvas{
+            width: 100%;
+            max-width: 640px;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+  </style>
+</head>
+
+<body>
+  <div class="banner" align="center">
+    <div class="navbar">
+      <img src="/static/s.png" class="logo">
+      <ul>
+        <li><a href="/static/index.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5000/">Webcam</a></li>
+        <li><a href="/static/contact.html">Contact us</a></li>
+        <li><a href="/static/about.html">About us</a></li>
+      </ul>
+    </div>
+<html>
+    <h1>Real-time Sign Language Detection</h1>
+    <img src="{{ url_for('video_feed') }}" style="width: 40%;">
+</body>
+</html>

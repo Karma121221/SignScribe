@@ -14,14 +14,13 @@ model = model_from_json(model_json)
 model.load_weights("new_model2.h5")
 
 # Create a list of sign language labels
-sign_language_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+#sign_language_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+sign_language_labels = ['A', 'B', 'C', 'H']
 
 # Initialize detection variables
 sequence = []
 predicted_sign = ''
 threshold = 0.8
-
-
 
 # Open the default camera (camera index 0)
 cap = cv2.VideoCapture(0)

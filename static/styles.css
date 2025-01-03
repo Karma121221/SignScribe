@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-  width: 120px;
+  width: 130px;
   cursor: pointer;
 }
 
@@ -65,7 +65,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  color: #fff;
+  color: #7d2d2d;
 }
 
 .content h1 {

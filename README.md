@@ -1,1 +1,2 @@
-# Sign-Detection-To-Text
+# SignLanguageDetectionUsingML-Neo
+ 

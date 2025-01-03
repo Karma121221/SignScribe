@@ -47,4 +47,4 @@ model_json = model.to_json()
 with open("model.json", "w") as json_file:
     json_file.write(model_json)
 
-model.save('new_model.h5')
+model.save('new_model3.h5')
